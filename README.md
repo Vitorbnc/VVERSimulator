@@ -22,6 +22,10 @@ The project uses [cpp-httplib](https://github.com/yhirose/cpp-httplib) for the H
 The project was built with MinGW-w64 and GCC 8.1, and there are build scripts available which use GNU make.
 There's a prebuilt binary inside ` /bin `, it was compiled and tested with Windows 10 version 18363. To build again, just run `build.bat`.
 
+A compressed folder with all the libraries used to build is available in `libs_backup.7z` for convenience. The makefile assumes they are stored in `C:/libs`.
+
+The python remote control app uses PySide2 for the UI and Requests for HTTP requests.
+
 ### Screenshots 
 
 Some of the screenshots show the vertical steam generator version. Here's the new main window:
