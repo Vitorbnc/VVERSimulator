@@ -14,7 +14,9 @@ UI text is currently in Brazilian Portuguese. Translating should be relatively s
 
 The main UI diagram was adapted with permission from a [World Nuclear Association](https://www.world-nuclear.org/) diagram for a Generic PWR (please note that the original diagram does NOT show a VVER) to match the description given in the article.
 
-In the ` /img ` folder contains an earlier version of the process diagram, which shows a vertical steam generator. This agrees with most western PWR designs, but to more accurately represent the VVER, it was later replaced for a new diagram with an horizontal steam generator. If you wish to use the vertical diagram, use the file `main_vert.cpp.bkp` instead of `main.cpp`.The code changes required mostly involve repositioning the UI widgets.
+In the ` /img ` folder contains an earlier version of the process diagram, which shows a vertical steam generator. This agrees with most western PWR designs, but to more accurately represent the VVER, it was later replaced by a new diagram with an horizontal steam generator. If you wish to use the vertical diagram, use the file `main_vert.cpp.bkp` instead of `main.cpp`.The code changes required mostly involve repositioning the UI widgets.
+
+To include new widgets or move the existing ones, capture the target top-left corner position by defining `SHOW_MOUSE_POS` as `true` and moving the mouse to the desired place.
 
 ### Libraries, Building and Binaries
 The project uses [cpp-httplib](https://github.com/yhirose/cpp-httplib) for the HTTP Server, [Dear ImGui](https://github.com/ocornut/imgui) for the User Interface, [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) for loading the process diagram and [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) for matrix operations. The development branch of Eigen is required to use the new matrix slicing API.
