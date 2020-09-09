@@ -19,6 +19,6 @@ The project was built with MinGW-w64 and GCC 8.1, and there are build scripts av
 There's a prebuilt binary in the */bin* folder, it was compiled and tested with Windows 10 version 18363. To build again, just run `buiild.bat`.
 
 ### Screenshots 
-![main_screen](/screenshots/inicial.png "Main Window")
+![main_screen](/screenshots/inicial_vver.png "Main Window")
 
 ![Charts1](/screenshots/gráfico_ultimas_3000_amostras.png "W_SG Charts")
