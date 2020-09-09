@@ -1,6 +1,8 @@
 # VVERSimulator
 ### A Simulator for the Primary Circuit of the VVER-440/V213 Pressurized Water Reactor
 The Simulator is a *C++* implementation of the model described in the article by Cs. Fazekas et al (2006)[ A simple dynamic model of the primary circuit in VVER plants for controller design purposes](https://doi.org/10.1016/j.nucengdes.2006.12.002). The model parameters used are those from the Unit 3 of the Paks Nuclear Power Plant in Hungary.
+
+UI text is currently in Brazilian Portuguese. Translating should be relatively straightforward. Most code comments and variable names are in English and match the naming adopted in the article.
 ### Features
 1. Equations are computed in *real time* (actually every sampling step) by Euler's method
 2. All the model variables and parameters are available, though only some were shown in the UI for simplicity
