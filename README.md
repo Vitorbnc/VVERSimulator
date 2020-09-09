@@ -12,13 +12,19 @@ The Simulator is a *C++* implementation of the model described in the article by
 
 The main UI diagram was adapted from a [World Nuclear Association](https://www.world-nuclear.org/) diagram for a Generic PWR (please note that the original diagram does NOT show a VVER) to portray a VVER and match the description given in the article.
 
+In the ` /img ` folder contains an earlier version of the process diagram, which shows a vertical steam generator. This agrees with most western PWR designs, but to more accurately represent the VVER, it was later replaced for a new diagram with an horizontal steam generator.
+
 ### Libraries and Build
 The project uses [cpp-httplib](https://github.com/yhirose/cpp-httplib) for the HTTP Server, [Dear ImGui](https://github.com/ocornut/imgui) for the User Interface, [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) for loading the process diagram and [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) for matrix operations. The development branch of Eigen is required to use the new matrix slicing API.
 
 The project was built with MinGW-w64 and GCC 8.1, and there are build scripts available which use GNU make.
-There's a prebuilt binary in the */bin* folder, it was compiled and tested with Windows 10 version 18363. To build again, just run `buiild.bat`.
+There's a prebuilt binary inside ` /bin `, it was compiled and tested with Windows 10 version 18363. To build again, just run `build.bat`.
 
 ### Screenshots 
+
+Some of the screenshots show the vertical steam generator version.
+
 ![main_screen](/screenshots/inicial_vver.png "Main Window")
 
 ![Charts1](/screenshots/gráfico_ultimas_3000_amostras.png "W_SG Charts")
+
