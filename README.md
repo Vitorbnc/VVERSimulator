@@ -16,13 +16,13 @@ The main UI diagram was adapted from a [World Nuclear Association](https://www.w
 
 In the ` /img ` folder contains an earlier version of the process diagram, which shows a vertical steam generator. This agrees with most western PWR designs, but to more accurately represent the VVER, it was later replaced for a new diagram with an horizontal steam generator. If you wish to use the vertical diagram, use the file `main_vert.cpp.bkp` instead of `main.cpp`.The code changes required mostly involve repositioning the UI widgets.
 
-### Libraries and Build
+### Libraries, Building and Binaries
 The project uses [cpp-httplib](https://github.com/yhirose/cpp-httplib) for the HTTP Server, [Dear ImGui](https://github.com/ocornut/imgui) for the User Interface, [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) for loading the process diagram and [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) for matrix operations. The development branch of Eigen is required to use the new matrix slicing API.
 
 The project was built with MinGW-w64 and GCC 8.1, and there are build scripts available which use GNU make.
-There's a prebuilt binary inside ` /bin `, it was compiled and tested with Windows 10 version 18363. To build again, just run `build.bat`.
+There's a prebuilt binary inside ` /bin `, it was compiled and tested with Windows 10 version 18363 and should be ready to run.
 
-A compressed folder with all the libraries used to build is available in `libs_backup.7z` for convenience. The makefile assumes they are stored in `C:/libs`.
+To build, run `build.bat`.A compressed folder with all the libraries used to build is available in `libs_backup.7z` for convenience. The makefile assumes they are stored in `C:/libs`.
 
 The python remote control app uses PySide2 for the UI and Requests for HTTP requests.
 
