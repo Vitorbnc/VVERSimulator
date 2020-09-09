@@ -15,4 +15,10 @@ The main UI diagram was adapted from a [World Nuclear Association](https://www.w
 ### Libraries and Build
 The project uses [cpp-httplib](https://github.com/yhirose/cpp-httplib) for the HTTP Server, [Dear ImGui](https://github.com/ocornut/imgui) for the User Interface, [stb_image](https://github.com/nothings/stb/blob/master/stb_image.h) for loading the process diagram and [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) for matrix operations. The development branch of Eigen is required to use the new matrix slicing API.
 
+The project was built with MinGW-w64 and GCC 8.1, and there are build scripts available which use GNU make.
+There's a prebuilt binary in the */bin* folder, it was compiled and tested with Windows 10 version 18363. To build again, just run `buiild.bat`.
+
 ### Screenshots 
+![main_screen](/screenshots/inicial.png "Main Window")
+
+![Charts1](/screenshots/gráfico_ultimas_3000_amostras.png "W_SG Charts")
