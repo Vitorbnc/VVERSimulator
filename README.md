@@ -40,4 +40,4 @@ Plotting real time charts:
 
 Simple Qt for Python Remote Control:
 
-![Remote1](/VVER_Remote/screenshots/conectado.png "Simple Remote Connected")
+![Remote](/VVER_Remote/screenshots/conectado.png "Simple Remote Connected")
