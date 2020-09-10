@@ -32,7 +32,7 @@ The python remote control app uses PySide2 for the UI and Requests for HTTP requ
 
 Some of the screenshots show the vertical steam generator version. Here's the new main window:
 
-![main_screen](/screenshots/inicial_vver.png "Main Window")
+![main_window](/screenshots/inicial_vver.png "Main Win")
 
 Plotting real time charts:
 
