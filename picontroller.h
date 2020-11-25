@@ -1,5 +1,5 @@
 #ifndef PICONTROLLER_H
-#define PINCONTROLLER_H
+#define PICONTROLLER_H
 /* Controlador PI com sincronização externa por semáforo binário (opcinal)
 * Recebe os parâmetros tradicionais (Kp, Ti, input, setpoint)
 * Recebe uma função que retorna bool para sincronizar, você pode passar esse parâmtro com uma lambda: []()->bool{return xxx}
